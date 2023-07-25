@@ -7,8 +7,8 @@ module.exports = {
         darkBlue:'#0A2640',
         lightGrey:'#f1f1f1',
       },
-      leading:{
-        72:'72px'
+      lineHeight:{
+        'extra-loose':'72px'
       }
     },
   },

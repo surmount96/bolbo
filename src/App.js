@@ -18,7 +18,7 @@ function App() {
       <section className='bg-darkBlue h-96'>
         <div className='text-white text-center'>
           <p className="text-xl text-lightGrey">Our services</p>
-          <h2 className='text-5xl leading-[72px] w-full md:w-1/2 mx-auto'>
+          <h2 className='text-5xl leading-extra-loose w-full md:w-1/2 mx-auto'>
             Handshake infographic mass market crowdfunding iteration.
           </h2>
         </div>
