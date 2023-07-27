@@ -17,7 +17,9 @@ function App() {
             non-disclosure.
           </p>
           <div className='flex items-center gap-3'>
-            <Button className='px-14 text-white bg-darkBlue'>Buy template</Button>
+            <Button className='px-14 text-white bg-darkBlue'>
+              Buy template
+            </Button>
             <Button className='border border-darkBlue text-darkBlue px-14 bg-transparent'>
               Explore
             </Button>
@@ -25,12 +27,11 @@ function App() {
         </div>
 
         <div className={`w-full md:w-1/2`}>
-          <img src={'../assets/HeroGraphics.svg'} alt='header' />
+          <img src={"../assets/HeroGraphics.svg"} alt='header' />
         </div>
       </header>
       <section className='bg-darkBlue h-96 mb-4'>
         <div className='text-white text-center'>
-          {/* <Input type="text" placeholder="Your email address" /> */}
           <p className='text-xl text-lightGrey'>Our services</p>
           <h2 className='text-5xl leading-extra-loose w-full md:w-1/2 mx-auto'>
             Handshake infographic mass market crowdfunding iteration.
@@ -39,7 +40,7 @@ function App() {
       </section>
       <section className='bg-darkBlue'>
         <div className='h-[391px] flex flex-col items-center justify-center gap-10 w-full md:w-2/4 mx-auto'>
-          <div className='text-white text-center'>
+          <div className='text-white md:text-center'>
             <h2 className='text-5xl leading-extra-loose'>
               An enterprise template to ramp up your company website
             </h2>
