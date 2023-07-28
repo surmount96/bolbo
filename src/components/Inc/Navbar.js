@@ -1,7 +1,7 @@
 import Logo from "../../assets/boldo.svg";
 import Button from "../UI/Button/Button";
 const Navbar = () => (
-  <nav className='flex items-center justify-between px-4 md:px-32 py-4 md:py-10'>
+  <nav className='flex items-center justify-between px-4 md:px-32 py-4 md:py-10 bg-transparent'>
     <div>
       <img src={Logo} alt='boldo logo' />
     </div>

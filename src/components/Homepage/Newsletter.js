@@ -3,7 +3,10 @@ import Input from "../UI/Form/Input";
 
 const Newsletter = () => {
   return (
-    <section className='bg-darkBlue px-5 md:px-0 md:mx-20 rounded md:rounded-xl py-7 md:py-0'>
+    <section
+      className="bg-darkBlue px-5 md:px-0 md:mx-20 rounded md:rounded-xl py-7 md:py-0 bg-no-repeat bg-right-top bg-[url('https://res.cloudinary.com/eleczra/image/upload/v1690553791/bgGroup_sslbsv.svg')]
+   "
+    >
       <div className='md:h-[391px] flex flex-col items-center justify-center gap-10 w-full md:w-[716px] mx-auto'>
         <div className='text-white md:text-center'>
           <h2 className='text-2xl md:text-5xl leading-9 md:leading-extra-loose'>
