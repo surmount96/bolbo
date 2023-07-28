@@ -15,9 +15,9 @@ function App() {
       <Partner />
       <Services />
       <CustomerContent />
-      <Blog />
       <Testimony />
       <Faq />
+      <Blog />
       <Newsletter />
     </Layout>
   );

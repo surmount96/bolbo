@@ -18,22 +18,22 @@ const customers = [
   "Business-to-consumer long tail.",
 ];
 
-const instructions = [
-  {
-    name: "We connect our customers with the best.",
-    icon: <SvgFeatherIcon />,
-  },
-  {
-    name: "Advisor success customer launch party.",
-    icon: <SvgEyeIcon />,
-  },
-  {
-    name: "Business-to-consumer long tail.",
-    icon: <SvgSunIcon />,
-  },
-];
+// const instructions = [
+//   {
+//     name: "We connect our customers with the best.",
+//     icon: <SvgFeatherIcon />,
+//   },
+//   {
+//     name: "Advisor success customer launch party.",
+//     icon: <SvgEyeIcon />,
+//   },
+//   {
+//     name: "Business-to-consumer long tail.",
+//     icon: <SvgSunIcon />,
+//   },
+// ];
 const CustomerContent = () => {
-  const [active, setActive] = useState(null);
+  // const [active, setActive] = useState(null);
 
   return (
     <>

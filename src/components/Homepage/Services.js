@@ -4,6 +4,20 @@ import Service3 from "../../assets/service3.svg";
 import Button from "../UI/Button/Button";
 import { SvgArrowRightIcon } from "../../assets/svg";
 
+const services = [
+  {
+    name: "Cool feature title",
+    pic: Service1,
+  },
+  {
+    name: "Even cooler feature",
+    pic: Service2,
+  },
+  {
+    name: "Cool feature title",
+    pic: Service3,
+  },
+];
 const Services = () => {
   return (
     <section className='bg-darkBlue mb-4 py-20'>
@@ -14,48 +28,22 @@ const Services = () => {
         </h2>
       </div>
       <div className='flex flex-wrap md:flex-nowrap gap-10 md:gap-28 justify-between items-center px-5 md:px-40'>
-        <div className='w-full md:w-1/3 text-white'>
-          <div>
-            <img
-              src={Service1}
-              alt='service'
-              className='w-full object-contain'
-            />
+        {services?.map((ser, count) => (
+          <div key={count} className='w-full md:w-1/3 text-white'>
+            <div>
+              <img
+                src={ser.pic}
+                alt='service'
+                className='w-full object-contain'
+              />
+            </div>
+            <p className='text-2xl mt-4 mb-6'>{ser.name}</p>
+            <Button className='border-b border-white flex items-center gap-3 rounded-none hover:animate-pulse'>
+              Explore page
+              <SvgArrowRightIcon color='#fff' width='24' height='26' />
+            </Button>
           </div>
-          <p className='text-2xl mt-4 mb-6'>Cool feature title</p>
-          <Button className='border-b border-white flex items-center gap-3 rounded-none'>
-            Explore page
-            <SvgArrowRightIcon color='#fff' width='24' height='26' />
-          </Button>
-        </div>
-        <div className='w-full md:w-1/3 text-white'>
-          <div>
-            <img
-              src={Service2}
-              alt='service'
-              className='w-full object-contain'
-            />
-          </div>
-          <p className='text-2xl mt-4 mb-6'>Even cooler feature</p>
-          <Button className='border-b border-white flex items-center gap-3 rounded-none'>
-            Explore page
-            <SvgArrowRightIcon color='#fff' width='24' height='26' />
-          </Button>
-        </div>
-        <div className='w-full md:w-1/3 text-white'>
-          <div>
-            <img
-              src={Service3}
-              alt='service'
-              className='w-full object-contain'
-            />
-          </div>
-          <p className='text-2xl mt-4 mb-6'>Cool feature title</p>
-          <Button className='border-b border-white flex items-center gap-3 rounded-none'>
-            Explore page
-            <SvgArrowRightIcon color='#fff' width='24' height='26' />
-          </Button>
-        </div>
+        ))}
       </div>
     </section>
   );
