@@ -15,13 +15,15 @@ const posts = [
   },
   {
     author: "Rachel Green",
-    description: "Seed round direct mailing non-disclosure agreement graphical user interface rockstar.",
+    description:
+      "Seed round direct mailing non-disclosure agreement graphical user interface rockstar.",
     img: Pic2,
     pic: Author2,
   },
   {
     author: "Monica Geller",
-    description: "Beta prototype sales iPad gen-z marketing network effects value proposition",
+    description:
+      "Beta prototype sales iPad gen-z marketing network effects value proposition",
     img: Pic3,
     pic: Author3,
   },
@@ -59,9 +61,9 @@ const Blog = () => {
           </div>
         ))}
       </div>
- 
+
       <div className='flex justify-center my-10 md:my-20'>
-        <Button className='border border-darkBlue text-darkBlue px-14 bg-transparent'>
+        <Button className='border border-darkBlue text-darkBlue hover:bg-darkBlue hover:text-white transition-colors px-14 bg-transparent'>
           Load more
         </Button>
       </div>

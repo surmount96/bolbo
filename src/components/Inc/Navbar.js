@@ -10,7 +10,7 @@ const Navbar = () => (
       <li>Services</li>
       <li>About</li>
       <li>
-        <Button className='border-2 border-darkBlue text-darkBlue text-md px-8 h-10'>
+        <Button className='border-2 border-darkBlue text-darkBlue hover:bg-darkBlue hover:text-white transition-colors !text-[16px] px-8 !h-10'>
           Log In
         </Button>
       </li>
