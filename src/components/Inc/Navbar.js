@@ -1,4 +1,5 @@
 import Logo from "../../assets/boldo.svg";
+import { SvgBarIcon } from "../../assets/svg";
 import Button from "../UI/Button/Button";
 
 const Navbar = () => (
@@ -16,6 +17,9 @@ const Navbar = () => (
         </Button>
       </li>
     </ul>
+    <div className='flex md:hidden'>
+      <SvgBarIcon />
+    </div>
   </nav>
 );
 

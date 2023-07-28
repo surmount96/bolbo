@@ -51,7 +51,7 @@ const CustomerContent = () => {
           </div>
         </div>
         <div className='w-full md:w-[493px]'>
-          <h3 className='text-4xl leading-relaxed'>
+          <h3 className='text-xl md:text-4xl leading-relaxed'>
             We connect our customers with the best, and help them keep up-and
             stay open.
           </h3>
@@ -60,7 +60,7 @@ const CustomerContent = () => {
               <div className='flex items-center justify-center bg-darkBlue h-8 w-8 rounded-full'>
                 <SvgCheckIcon />
               </div>
-              <p className='text-xl'>{cus}</p>
+              <p className='md:text-xl'>{cus}</p>
             </div>
           ))}
 
@@ -69,7 +69,7 @@ const CustomerContent = () => {
       </div>
       <div className='flex flex-wrap md:flex-nowrap gap-5 md:gap-16 items-center justify-between px-5 md:px-44 py-14'>
         <div className='w-full md:w-[493px]'>
-          <h3 className='text-4xl leading-relaxed'>
+          <h3 className='text-xl md:text-4xl leading-relaxed'>
             We connect our customers with the best, and help them keep up-and
             stay open.
           </h3>

@@ -27,8 +27,8 @@ const testimonies = [
 export const Testimony = () => {
   return (
     <section className='bg-darkBlue mb-4 py-32 px-5 md:px-40'>
-      <div className='flex items-center justify-between'>
-        <div className='text-white mb-16'>
+      <div className='flex items-center justify-between flex-wrap md:flex-nowrap'>
+        <div className='text-white mb-6 md:mb-16'>
           <h2 className='text-2xl md:text-5xl leading-9 md:leading-extra-loose w-full md:w-9/12'>
             An enterprise template to ramp up your company website
           </h2>
@@ -42,7 +42,7 @@ export const Testimony = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-wrap md:flex-nowrap gap-10 md:gap-10 justify-between'>
+      <div className='flex flex-wrap md:flex-nowrap gap-10 md:gap-10 justify-between mt-6 md:mt-0'>
         {testimonies?.map((tes, count) => (
           <div
             key={count}
