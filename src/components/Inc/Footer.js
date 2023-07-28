@@ -1,7 +1,7 @@
 import Logo from "../../assets/boldo.svg";
 
 const Footer = () => (
-  <footer className='flex gap-3 flex-wrap md:flex-nowrap justify-between px-4 md:px-20 py-14'>
+  <footer className='flex gap-6 flex-wrap md:flex-nowrap justify-between px-4 md:px-20 py-14'>
     <div className='w-full md:w-5/12'>
       <div>
         <img src={Logo} alt='boldo logo' />

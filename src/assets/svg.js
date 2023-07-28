@@ -9,9 +9,9 @@ export const SvgCheckIcon = () => (
     <path
       d='M20 6L9 17L4 12'
       stroke='white'
-      stroke-width='2'
-      stroke-linecap='round'
-      stroke-linejoin='round'
+      strokeWidth='2'
+      strokeLinecap='round'
+      strokeLinejoin='round'
     />
   </svg>
 );
@@ -27,23 +27,23 @@ export const SvgFeatherIcon = () => (
     <path
       d='M22.24 14.24C23.3658 13.1142 23.9983 11.5872 23.9983 9.99504C23.9983 8.40285 23.3658 6.87588 22.24 5.75004C21.1142 4.62419 19.5872 3.9917 17.995 3.9917C16.4028 3.9917 14.8758 4.62419 13.75 5.75004L7 12.5V21H15.5L22.24 14.24Z'
       stroke='white'
-      stroke-width='2'
-      stroke-linecap='round'
-      stroke-linejoin='round'
+      strokeWidth='2'
+      strokeLinecap='round'
+      strokeLinejoin='round'
     />
     <path
       d='M18 10L4 24'
       stroke='white'
-      stroke-width='2'
-      stroke-linecap='round'
-      stroke-linejoin='round'
+      strokeWidth='2'
+      strokeLinecap='round'
+      strokeLinejoin='round'
     />
     <path
       d='M19.5 17H11'
       stroke='white'
-      stroke-width='2'
-      stroke-linecap='round'
-      stroke-linejoin='round'
+      strokeWidth='2'
+      strokeLinecap='round'
+      strokeLinejoin='round'
     />
   </svg>
 );
@@ -60,16 +60,16 @@ export const SvgEyeIcon = () => (
       <path
         d='M1.7749 12.6543C1.7749 12.6543 5.7749 4.6543 12.7749 4.6543C19.7749 4.6543 23.7749 12.6543 23.7749 12.6543C23.7749 12.6543 19.7749 20.6543 12.7749 20.6543C5.7749 20.6543 1.7749 12.6543 1.7749 12.6543Z'
         stroke='#0A2640'
-        stroke-width='2'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <path
         d='M12.7749 15.6543C14.4318 15.6543 15.7749 14.3112 15.7749 12.6543C15.7749 10.9974 14.4318 9.6543 12.7749 9.6543C11.118 9.6543 9.7749 10.9974 9.7749 12.6543C9.7749 14.3112 11.118 15.6543 12.7749 15.6543Z'
         stroke='#0A2640'
-        stroke-width='2'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </g>
     <defs>
@@ -97,65 +97,65 @@ export const SvgSunIcon = () => (
       <path
         d='M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z'
         stroke='#0A2640'
-        stroke-width='2'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <path
         d='M12 1V3'
         stroke='#0A2640'
-        stroke-width='2'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <path
         d='M12 21V23'
         stroke='#0A2640'
-        stroke-width='2'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <path
         d='M4.21997 4.21997L5.63997 5.63997'
         stroke='#0A2640'
-        stroke-width='2'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <path
         d='M18.3601 18.3601L19.7801 19.7801'
         stroke='#0A2640'
-        stroke-width='2'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <path
         d='M1 12H3'
         stroke='#0A2640'
-        stroke-width='2'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <path
         d='M21 12H23'
         stroke='#0A2640'
-        stroke-width='2'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <path
         d='M4.21997 19.7801L5.63997 18.3601'
         stroke='#0A2640'
-        stroke-width='2'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
       <path
         d='M18.3601 5.63997L19.7801 4.21997'
         stroke='#0A2640'
-        stroke-width='2'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeWidth='2'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       />
     </g>
     <defs>
@@ -166,10 +166,14 @@ export const SvgSunIcon = () => (
   </svg>
 );
 
-export const SvgArrowRightIcon = ({ color = "#0A2640", size = "" }) => (
+export const SvgArrowRightIcon = ({
+  color = "#0A2640",
+  height = "39",
+  width = "36",
+}) => (
   <svg
-    width='36'
-    height='39'
+    width={width}
+    height={height}
     viewBox='0 0 36 39'
     fill='none'
     xmlns='http://www.w3.org/2000/svg'
@@ -177,16 +181,16 @@ export const SvgArrowRightIcon = ({ color = "#0A2640", size = "" }) => (
     <path
       d='M7.5 21H28.5'
       stroke={color}
-      stroke-width='3'
-      stroke-linecap='round'
-      stroke-linejoin='round'
+      strokeWidth='3'
+      strokeLinecap='round'
+      strokeLinejoin='round'
     />
     <path
       d='M18 10.5L28.5 21L18 31.5'
       stroke={color}
-      stroke-width='3'
-      stroke-linecap='round'
-      stroke-linejoin='round'
+      strokeWidth='3'
+      strokeLinecap='round'
+      strokeLinejoin='round'
     />
   </svg>
 );
@@ -202,16 +206,16 @@ export const SvgArrowLeftIcon = () => (
     <path
       d='M28.5 18L7.5 18'
       stroke='#0A2640'
-      stroke-width='3'
-      stroke-linecap='round'
-      stroke-linejoin='round'
+      strokeWidth='3'
+      strokeLinecap='round'
+      strokeLinejoin='round'
     />
     <path
       d='M18 28.5L7.5 18L18 7.5'
       stroke='#0A2640'
-      stroke-width='3'
-      stroke-linecap='round'
-      stroke-linejoin='round'
+      strokeWidth='3'
+      strokeLinecap='round'
+      strokeLinejoin='round'
     />
   </svg>
 );
@@ -227,9 +231,9 @@ export const SvgArrowDownIcon = () => (
     <path
       d='M6 9L12 15L18 9'
       stroke='white'
-      stroke-width='2'
-      stroke-linecap='round'
-      stroke-linejoin='round'
+      strokeWidth='2'
+      strokeLinecap='round'
+      strokeLinejoin='round'
     />
   </svg>
 );
@@ -245,9 +249,9 @@ export const SvgArrowUpIcon = () => (
     <path
       d='M20 6L9 17L4 12'
       stroke='white'
-      stroke-width='2'
-      stroke-linecap='round'
-      stroke-linejoin='round'
+      strokeWidth='2'
+      strokeLinecap='round'
+      strokeLinejoin='round'
     />
   </svg>
 );
