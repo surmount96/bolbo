@@ -16,7 +16,7 @@ const Newsletter = () => {
         <div className='flex flex-wrap md:flex-nowrap gap-3 w-full md:w-10/12 mx-auto'>
           <Input type='text' placeholder='Your email address' />
           <div className='w-72'>
-            <Button className='text-darkBlue bg-brand-green w-full'>
+            <Button className='text-darkBlue bg-brand-green w-full hover:opacity-90'>
               Start now
             </Button>
           </div>

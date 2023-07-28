@@ -64,7 +64,7 @@ const CustomerContent = () => {
             </div>
           ))}
 
-          <Button className='px-14 text-white bg-darkBlue'>Start now</Button>
+          <Button className='px-14 text-white bg-darkBlue hover:opacity-90'>Start now</Button>
         </div>
       </div>
       <div className='flex flex-wrap md:flex-nowrap gap-5 md:gap-16 items-center justify-between px-5 md:px-44 py-14'>

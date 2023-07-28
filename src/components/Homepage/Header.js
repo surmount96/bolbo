@@ -1,5 +1,4 @@
 import HeaderBg from "../../assets/HeroGraphics.svg";
-// import backgroundImg from "../../assets/headerBg.svg";
 import Button from "../UI/Button/Button";
 
 const Header = () => {
@@ -14,8 +13,10 @@ const Header = () => {
           First mover advantage innovator success deployment non-disclosure.
         </p>
         <div className='flex flex-wrap md:flex-nowrap items-center gap-3'>
-          <Button className='px-14 text-white bg-darkBlue'>Buy template</Button>
-          <Button className='border-2 border-darkBlue text-darkBlue px-14 bg-transparent'>
+          <Button className='px-14 text-white bg-darkBlue hover:opacity-90'>
+            Buy template
+          </Button>
+          <Button className='border-2 border-darkBlue text-darkBlue px-14 bg-transparent hover:bg-darkBlue hover:text-white'>
             Explore
           </Button>
         </div>
@@ -23,11 +24,6 @@ const Header = () => {
 
       <div className={`w-full md:w-1/2 md:pl-16`}>
         <img src={HeaderBg} alt='header' className='w-full object-contain' />
-        {/* <img
-          src='../headerBg.svg'
-          alt='header'
-          className='w-full object-contain'
-        /> */}
       </div>
     </header>
   );
