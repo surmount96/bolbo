@@ -26,7 +26,7 @@ const testimonies = [
 ];
 export const Testimony = () => {
   return (
-    <section className='bg-darkBlue mb-4 py-32 px-5 md:px-40'>
+    <section  data-aos="zoom-in-up" className='bg-darkBlue mb-4 py-32 px-5 md:px-40'>
       <div className='flex items-center justify-between flex-wrap md:flex-nowrap'>
         <div className='text-white mb-6 md:mb-16'>
           <h2 className='text-2xl md:text-5xl leading-9 md:leading-extra-loose w-full md:w-9/12'>

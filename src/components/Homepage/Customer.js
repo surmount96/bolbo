@@ -37,7 +37,7 @@ const CustomerContent = () => {
 
   return (
     <>
-      <div className='flex flex-wrap md:flex-nowrap gap-5 md:gap-16 items-center justify-between px-5 md:px-44 py-14'>
+      <div data-aos="zoom-in" className='flex flex-wrap md:flex-nowrap gap-5 md:gap-16 items-center justify-between px-5 md:px-44 py-14'>
         <div className='w-full md:w-[494px] md:h-[610px'>
           <div>
             <img
@@ -67,7 +67,7 @@ const CustomerContent = () => {
           <Button className='px-14 text-white bg-darkBlue hover:opacity-90'>Start now</Button>
         </div>
       </div>
-      <div className='flex flex-wrap md:flex-nowrap gap-5 md:gap-16 items-center justify-between px-5 md:px-44 py-14'>
+      <div data-aos="zoom-in" className='flex flex-wrap md:flex-nowrap gap-5 md:gap-16 items-center justify-between px-5 md:px-44 py-14'>
         <div className='w-full md:w-[493px]'>
           <h3 className='text-xl md:text-4xl leading-relaxed'>
             We connect our customers with the best, and help them keep up-and

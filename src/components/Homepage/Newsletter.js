@@ -4,6 +4,7 @@ import Input from "../UI/Form/Input";
 const Newsletter = () => {
   return (
     <section
+    data-aos="fade-up"
       className="bg-darkBlue px-5 md:px-0 md:mx-20 rounded md:rounded-xl py-7 md:py-0 bg-no-repeat bg-right-top bg-[url('https://res.cloudinary.com/eleczra/image/upload/v1690553791/bgGroup_sslbsv.svg')]
    "
     >

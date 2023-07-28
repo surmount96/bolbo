@@ -20,7 +20,7 @@ const services = [
 ];
 const Services = () => {
   return (
-    <section className='bg-darkBlue mb-4 py-20'>
+    <section data-aos="flip-left" className='bg-darkBlue mb-4 py-20'>
       <div className='text-white text-center mb-16'>
         <p className='text-md md:text-xl text-lightGrey mb-6'>Our services</p>
         <h2 className='text-2xl md:text-5xl leading-9 md:leading-extra-loose w-full md:w-2/3 mx-auto'>

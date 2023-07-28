@@ -31,7 +31,7 @@ const posts = [
 
 const Blog = () => {
   return (
-    <section className='mb-4 py-9 md:py-14'>
+    <section data-aos="fade-down" className='mb-4 py-9 md:py-14'>
       <div className='text-center mb-7 md:mb-12'>
         <p className='text-md md:text-xl text-brand-gray'>Our Blog</p>
         <h2 className='text-2xl md:text-5xl leading-9 md:leading-extra-loose w-full md:w-2/3 mx-auto'>

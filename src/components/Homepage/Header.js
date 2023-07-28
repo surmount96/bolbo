@@ -4,7 +4,7 @@ import Button from "../UI/Button/Button";
 const Header = () => {
   return (
     <header className="pt-20 -mt-20 md:pt-24 md:-mt-28 lg:pt-40 lg:-mt-32 flex flex-wrap md:flex-nowrap gap-5 md:gap-1 px-4 md:px-32 items-center bg-no-repeat bg-right-top bg-[url('https://res.cloudinary.com/eleczra/image/upload/v1690553358/headerBg_w4jnqt.svg')]">
-      <div className='w-full md:w-1/2 md:pt-16'>
+      <div data-aos="fade-up-right" className='w-full md:w-1/2 md:pt-16'>
         <h1 className='text-2xl md:text-5xl leading-9 md:leading-extra-loose mb-8'>
           Save time by building fast with Boldo Template{" "}
         </h1>
@@ -22,7 +22,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className={`w-full md:w-1/2 md:pl-16`}>
+      <div data-aos="fade-left" className={`w-full md:w-1/2 md:pl-16`}>
         <img src={HeaderBg} alt='header' className='w-full object-contain' />
       </div>
     </header>

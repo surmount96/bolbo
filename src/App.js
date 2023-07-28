@@ -7,8 +7,15 @@ import Blog from "./components/Homepage/Blog";
 import Newsletter from "./components/Homepage/Newsletter";
 import { Testimony } from "./components/Homepage/Testimony";
 import { Faq } from "./components/Homepage/Faq";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <Layout>
       <Header />
