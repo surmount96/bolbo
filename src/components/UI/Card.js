@@ -1,7 +1,7 @@
 import { useState } from "react";
+import { SvgEyeIcon, SvgFeatherIcon, SvgSunIcon } from "../../assets/svg";
 
-const Card = ({ Icon, title }) => {
-//   const Icon = Icon;
+const Card = ({ count, title }) => {
   const [active, setActive] = useState(false);
 
   return (
@@ -16,7 +16,14 @@ const Card = ({ Icon, title }) => {
         setActive(false);
       }}
     >
-      <Icon color={active ? "#ffffff" : "#0A2640"} />
+      {count === 1 ? (
+        <SvgFeatherIcon color={active ? "#ffffff" : "#0A2640"} />
+      ) : count === 2 ? (
+        <SvgEyeIcon color={active ? "#ffffff" : "#0A2640"} />
+      ) : (
+        <SvgSunIcon color={active ? "#ffffff" : "#0A2640"} />
+      )}
+
       <p className=''>{title}</p>
     </div>
   );

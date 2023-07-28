@@ -9,7 +9,6 @@ import {
   SvgSunIcon,
 } from "../../assets/svg";
 import Button from "../UI/Button/Button";
-import { useState } from "react";
 import Card from "../UI/Card";
 
 const customers = [
@@ -18,26 +17,13 @@ const customers = [
   "Business-to-consumer long tail.",
 ];
 
-// const instructions = [
-//   {
-//     name: "We connect our customers with the best.",
-//     icon: <SvgFeatherIcon />,
-//   },
-//   {
-//     name: "Advisor success customer launch party.",
-//     icon: <SvgEyeIcon />,
-//   },
-//   {
-//     name: "Business-to-consumer long tail.",
-//     icon: <SvgSunIcon />,
-//   },
-// ];
 const CustomerContent = () => {
-  // const [active, setActive] = useState(null);
-
   return (
     <>
-      <div data-aos="zoom-in" className='flex flex-wrap md:flex-nowrap gap-5 md:gap-16 items-center justify-between px-5 md:px-44 py-14'>
+      <div
+        data-aos='zoom-in'
+        className='flex flex-wrap md:flex-nowrap gap-5 md:gap-16 items-center justify-between px-5 md:px-44 py-14'
+      >
         <div className='w-full md:w-[494px] md:h-[610px'>
           <div>
             <img
@@ -64,10 +50,15 @@ const CustomerContent = () => {
             </div>
           ))}
 
-          <Button className='px-14 text-white bg-darkBlue hover:opacity-90'>Start now</Button>
+          <Button className='px-14 text-white bg-darkBlue hover:opacity-90'>
+            Start now
+          </Button>
         </div>
       </div>
-      <div data-aos="zoom-in" className='flex flex-wrap md:flex-nowrap gap-5 md:gap-16 items-center justify-between px-5 md:px-44 py-14'>
+      <div
+        data-aos='zoom-in'
+        className='flex flex-wrap md:flex-nowrap gap-5 md:gap-16 items-center justify-between px-5 md:px-44 py-14'
+      >
         <div className='w-full md:w-[493px]'>
           <h3 className='text-xl md:text-4xl leading-relaxed'>
             We connect our customers with the best, and help them keep up-and
@@ -77,36 +68,20 @@ const CustomerContent = () => {
           <div className='flex flex-col gap-8 mt-10'>
             <Card
               title='We connect our customers with the best.'
+              count={1}
               Icon={() => <SvgFeatherIcon />}
             />
             <Card
               title='Advisor success customer launch party.'
+              count={2}
               Icon={() => <SvgEyeIcon />}
             />
             <Card
               title='Business-to-consumer long tail.'
+              count={3}
               Icon={() => <SvgSunIcon />}
             />
-            {/* {instructions?.map((i, count) => {
-              const Icon = () => i.icon;
-              return (
-                <div
-                  key={count}
-                  className={`flex items-center gap-3 shadow-md px-4 py-5 rounded font-semibold transition-all cursor-pointer ${
-                    active === count && "bg-darkBlue text-white"
-                  }`}
-                  onMouseOver={() => {
-                    setActive(count);
-                  }}
-                  onMouseOut={() => {
-                    setActive(null);
-                  }}
-                >
-                  <Icon color={active === count ? "#ffffff" : "#0A2640"} />
-                  <p className=''>{i.name}</p>
-                </div>
-              );
-            })} */}
+           
           </div>
         </div>
         <div className='w-full md:w-[494px] md:h-[610px'>
